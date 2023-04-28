@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title> Mistério </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.min.css"> 
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script> 
+  <style>
+  .img-circle{border-radius:40%}
+  .img-rounded{border-radius:30%}
+  .img-polaroid{border-radius:20%}
+  .dropdown-menu{background-color:rgb(12, 234, 250);hover:rgba(255, 251, 251, 0.39)}
+  .btn-primary{color:rgb(249, 255, 255);background-color:rgb(19, 66, 194);border-color:#005a5a;}
+ body {background:url(misterio.jpg);
+		background-repeat:no-repeat;
+		background-size:100%;
+		background-attachment:fixed}
+
+    .classe1{
+    background: rgba(0, 0, 0, 0.703);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    text-align: center;
+    position: absolute;
+    left: 600px;
+    top:70px;
+    opacity: 0.9;
+    width:400px;
+    text-shadow:20px -2px 20px rgba(0, 0, 0, 0.445);
+    padding: 5px;
+    }
+
+    .classe2{
+    background: rgba(255, 255, 255, 0.589);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    text-align: center;
+    position: absolute;
+    left: 350px;
+    top:620px;
+    opacity: 0.9;
+    width:900px;
+    text-shadow:20px -2px 20px rgba(0, 0, 0, 0.445);
+    padding: 5px;
+    }
+
+  </style>
+</head>
+<body>
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> Home
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="pag1.html">Sherlock Holmes</a></li>
+    <li><a href="pag2.html">O homem de Giz</a></li>
+	<li><a href="pag3.html">Os dois morrem no final</a></li>
+  </ul>
+</div>
+
+
+<div class="container"> 
+
+  <p class="classe1">Histórias de Mistério</p> 
+
+  <img src="Capa_Sherlock.jpg" class="img-circle" alt="Carrinho" style="left: 150px; top: 200px; position: absolute" width="400" height="336"> 
+  <img src="Giz.jpg" class="img-rounded" style="left: 600px; top: 200px; position: absolute" width="400" height="336">
+  <img src="dois.jpg" class="img-polaroid" style="left: 1100px; top: 200px; position: absolute" width="400" height="336"> 
+  
+  <p class="classe2"> As melhores histórias de mistério que você já viu!!!</p>
+
+</div>
+</body>
+</html>

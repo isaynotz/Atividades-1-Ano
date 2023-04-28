@@ -1,0 +1,49 @@
+
+body{background-image:url(amazonia.jpg); /* imagem de fundo */
+	  background-attachment:fixed;
+      background-repeat:no-repeat;
+	  background-size:100%;}
+	  
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* aparece visivel o que está dentro do bloco */ 
+  background-image: linear-gradient(to right, rgb(196, 255, 196), rgb(231, 231, 231));
+}
+
+li {float: left; /* os links ficam na esquerda */
+}
+
+li a {
+    display:block;  /* menu de bloco, vai utilizar a linha toda */
+    padding:12px;
+
+}
+
+a:link {  /* cores dos links */
+    color: white;
+	
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: rgba(255, 255, 0, 0.363);
+}
+
+a:active {
+    color: blue;
+}
+
+footer { /* rodapé */
+   position:fixed;
+   left:0;
+   bottom:0;
+   width:100%;
+   background-color:rgba(249, 143, 255, 0.123);
+   color:white;
+   text-align:center;}
+ 

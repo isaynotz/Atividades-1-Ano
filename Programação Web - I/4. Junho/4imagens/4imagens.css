@@ -1,0 +1,52 @@
+*{margin:0;
+padding:0}
+
+body{background-image:url(arvore.jpg)}
+
+#img1{
+	background-image:URL(maritaca1.jpg);
+	width:300px;
+	height:200px;
+	position:absolute;
+	top:20px;
+	left:20px;
+	background-size:100% 100%
+	}
+
+#img2{
+	background-image:url(maritaca2.jpg);
+	width:375px;
+	height:250px;
+	position:absolute;
+	top:20px;
+	right:20px; 
+	background-size:100% 100%;
+	}
+
+#img3{
+	background-image:url(maritaca3.jpg);
+	width:275px;
+	height:200px;
+	position:absolute; 
+	bottom:20px;
+	left:20px; 
+	background-size:100% 100%;
+	}
+
+#img4{
+	background-image:url(maritaca4.jpg);
+	width:305px; 
+	height:200px;
+	position:absolute;
+	bottom:20px; 
+	right:20px; 
+	background-size:100% 100%;
+	}
+#texto{
+	width:355px;
+	height:200px;
+	margin:300px auto;
+	background-size:100% 100%;
+	font-size: 20px;
+	color: rgb(238, 255, 0);
+	}

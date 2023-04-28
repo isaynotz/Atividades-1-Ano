@@ -1,0 +1,213 @@
+<!--
+Tema: filmes ou séries
+Colocar link para trailer de cada filme ou série 
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+* {
+  box-sizing: border-box; /* mesmo usando padding ou border o tamanho não se altera*/
+}
+
+.row::after { /* texto que pode ser colocado após */
+  content: ""; /* conteúdo vazio */
+  clear: both; /* limpar float .*/
+  display: table; /* elemento table */
+}
+
+[class*="col-"] /* classe/tamanho da coluna */
+ { 
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: Tahoma, sans-serif;}
+
+body{background-image: url(kat\ certo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment:fixed;
+    }
+
+header {
+  background-color: #000000;
+  color: #fff;
+  padding: 55px;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 8px;
+  margin-bottom: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.9), 0 5px 10px rgba(0,0,0,0.24);
+}
+
+li:hover {
+  background-color: rgb(99, 96, 96);
+  box-shadow: 5px 5px rgb(44, 43, 42);
+  position: relative; 
+  bottom: 5px; left: 20px;
+  }
+
+.classeE {
+  background-color: #660000;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+footer {
+  background-color: #000000;
+  color: #970303;
+  position:relative;
+  width:100%;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+
+}
+
+.classe3{
+  color:rgb(44, 43, 42);
+  background: rgba(255, 255, 255, 0.87);
+  width:700px;
+  padding: 7px;
+  font-family: serif;
+  font-weight:bold;
+  text-align: left;
+  font-size: 19px;
+  height: 140px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For COMPUTER */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+img {height:150px;
+	width:280px;}
+
+#caixa1{
+	background-image:url(letra_jogos_v-removebg-preview.png);
+	background-size:100%;
+	background-repeat:no-repeat;
+	width:300px; height:150px;
+	position:absolute; top:-5px; left:600px;
+    }
+
+#caixa2{
+	background-image:url(jv.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	width:100px; height:107px;
+	position:absolute; top:-5px; left:910px;
+    }
+
+</style>
+</head>
+<body>
+
+<header>
+    <p id="caixa1"></p>
+    <p id="caixa2"></p>
+</header>
+
+<div class="row">
+  <div class="col-3 col-s-3">
+    <ul>
+     <li><a href="https://www.youtube.com/watch?v=iiGm3Sd5A8o"> <img src="image (3).png"></a></li>
+     <li><a href="https://www.youtube.com/watch?v=cKyrXQSsSl4"><img src="image (1).png"></a></li>
+	   <li><a href="https://www.youtube.com/watch?v=2ZoOBC0-W9U"><img src="image (4).png"></a></li>
+      <li><a href="https://www.youtube.com/watch?v=2ZoOBC0-W9U"><img src="esperança 01.png"></a></li>
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9">
+    <div class="classe3">
+    <h1>Jogos Vorazes</h1>
+    <p>2012</p> 
+    </div>
+  </div>
+
+  <div class="col-6 col-s-9">
+    <div class="classe3">
+    <h1>Jogos Vorazes: Em Chamas</h1>
+    <p>2013</p>
+    </div>
+  </div>
+
+  <div class="col-9 col-s-12">
+    <div class="classe3">
+    <h1>Jogos Vorazes: A Esperança – Parte 1</h1>
+    <p>2014</p>
+    </div>
+  </div>
+
+  <div class="col-6 col-s-9">
+    <div class="classe3">
+    <h1>Jogos Vorazes: A Esperança – Parte 2</h1>
+    <p>2015</p>
+    </div>
+  </div>
+
+<Div style="position:absolute; top:350px; right:80px; width: 300px;";>
+  <div class="col-12 col-s-12">
+    <div class="classeE">
+      <h2>Resenha</h2>
+      <p>A trilogia de Suzane Collins apresenta um mundo distópico, onde a população de Panem – um país localizado onde antes ficava a América do Norte – se divide entre a Capital, que domina a nação, e outros 12 distritos.</p>
+    </div>
+  </div>
+</div>
+</div>>
+<footer>
+  <p>@ registro by Iris, Ruan e Nichollas</p>
+</footer>
+
+</body>
+</html>

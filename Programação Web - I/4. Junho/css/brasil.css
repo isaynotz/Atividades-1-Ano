@@ -1,0 +1,26 @@
+/* troque as imagens, mude a largura e altura dos containers, cor da fonte e altere também um pouco as posições dos containers */
+
+BODY {background-image:url(bgcerto.jpg);
+      background-repeat:no-repeat; 
+	  background-size:100%}
+
+#texto1{width:850px;height:100px;
+		color:#209fd1;
+		text-align:justify;
+		font-size:30px;
+		position:absolute;
+		top:20%;
+		right:8%;
+		border:2px solid #cfd2d3;
+		border-color: black;
+		border-width: 3px;;}
+		
+#img1{background-image:url(arvore.jpg);
+      width:395px;height:285px;
+	  position:absolute;
+	  top:60%;
+	  left:35%;
+	  background-size:100% 100%}
+
+/* detalhe sobre links */
+a:link{color:green} a:visited{color:red} a:hover{color:blue}

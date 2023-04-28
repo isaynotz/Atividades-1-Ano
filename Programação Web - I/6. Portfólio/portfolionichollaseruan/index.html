@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box; /* Box model = São apenas caixas. Os principais elementos que definem as dimensões e distanciamento das caixas são: Width / Height, Padding, Border (e Box-shadow)
+	 */
+}
+
+body { 
+    font-family: Arial;
+    padding: 10px;
+    background: linear-gradient(to bottom, gray, white);
+}
+
+
+.header { /* parte superior */
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient(to bottom, gray, white);
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+
+.menu {
+    overflow: hidden; /* overflow: hidden evita que as barras de rolagem apareçam, mesmo quando são necessárias. */
+    background-color: rgba(51, 51, 51, 0.438);
+}
+
+
+.menu a {
+    float: left; /* menu aparece na parte esquerda
+    display: block; /* renderização como bloco.*/
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /* sem sublinhado no menu */
+}
+
+
+.menu a:hover { 
+    background-color: #ddd;
+    color: black;
+}
+
+
+.leftcolumn {   
+    float: left;
+    width: 75%;
+	}
+
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: (rgb(161, 161, 161));
+    padding-left: 20px;
+}
+
+
+.class1 {
+    background-image:url(cenariodecrime.jpg);
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	width:100%;
+	height:50%;
+    padding: 20px;
+    color: white;
+}
+.class2{
+    background-image:url(foto2.jpg);
+    background-repeat:no-repeat;
+	background-size: 100% 100%;
+	width:100%;
+    padding:20px;
+    color: white;
+}
+
+.class3{
+    background-image:url(foto3.png);
+    background-repeat:no-repeat;
+	background-size: 100% 100%;
+	width:100%;
+    padding:20px;
+    color: white;
+}
+
+.class4{
+    background-image:url(foto4.jpeg);
+    background-repeat:no-repeat;
+	background-size: 100% 100%;
+	width:100%;
+    padding:20px;
+    color: white;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+	height:40%
+}
+
+
+.row:after {	
+    content: "";
+    display: table; /* diz ao elemento para ser exibido como uma tabela. */
+    clear: both; /* nenhum elemento flutuar no lado esquerdo e direito */
+}
+
+
+footer { /* uma tag para rodapé */
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsivo */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsivo*/
+@media screen and (max-width: 400px) {
+    .menu a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Nosso Portfólio</h1>
+  <p>Nossos trabalhos</p>
+</div>
+
+<div class="menu">
+  <a href="formulário.html" target="_blank">Formulário</a>
+  <a href="Nichollas-carnaval/Index.html" target="_blank">Carnaval</a>
+  <a href="externo/new.html" target="_blank">CSS Externo</a>
+  <a href="Nichollas-copa/Nichollas-Copa.html" style="float:right" target="_blank">Copa do Mundo</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Nosso Portfólio</h2>
+      <h5>DD Aula de Photoshop - Montagem</h5>
+      <div class="class1" style="height:500px;"><b>Anão dos 7 anões encontrado morto</b></div>
+      <p>Professor Donati nos pediu para fazer uma montagem de nossa escolha, e o Nichollas montou esta.</p>
+    </div>
+    <div class="card">
+      <h5>DD Aula de Photoshop - Montagem</h5>
+      <div class="class2" style="height:600px; background-size:100%;"><b>Pato Maloka</b></div>
+      <p>Professor Donati nos pediu para fazer uma montagem de nossa escolha, e o Ruan montou esta.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Melhor trabalho:</h2>
+      <div class="class2" style="height:100px;"><b>Pato Maloka</b></div>
+    </div>
+    <div class="card">
+      <h3>Melhores Trabalhos:</h3>
+      <div class="class2"><p><b>Pato Maloka</b></p></div>
+      <div class="class3"><p><b>Merenda ETEC</b></p></div>
+      <div class="class4"><p><b>Homem Smurf</b></p></div>
+    </div>
+    <div class="card">
+      <h3>Nos siga:</h3>
+      <p>@ruancarvalhom</p>
+      <p>@nichollasdasdores</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <h2>Portfólio elaborado e montado por: Nichollas das Dores e Ruan Miguel</h2>
+</footer>
+
+</body>
+
+</html>

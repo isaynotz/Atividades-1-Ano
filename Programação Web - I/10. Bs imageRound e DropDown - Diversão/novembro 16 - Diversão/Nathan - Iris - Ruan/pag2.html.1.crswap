@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title> Mistério </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.min.css"> 
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script> 
+  <style>
+  .img-circle{border-radius:40%;
+    position: absolute;top: 350px; right: 00px;}
+
+  .img-rounded{border-radius:10%;
+  position: absolute;top: 350px; right: 550px;
+  }
+
+  .img-polaroid{border-radius:10%;
+  width: 300px;
+  height: 500px;
+  position: absolute;top: 250px; right: 35px;
+  }
+
+  .dropdown-menu{background-color:rgb(12, 234, 250);hover:rgba(255, 251, 251, 0.39)}
+  .btn-primary{color:rgb(249, 255, 255);background-color: rgb(53, 54, 60);border-color:#646a6a;}
+ body {background:url(fundo.png);
+		background-repeat:no-repeat;
+		background-size:100%;
+		background-attachment:fixed}
+
+#caixa1{
+	background-image:url(image-removebg-preview\ \(1\).png);
+	background-size:100%;
+	background-repeat:no-repeat;
+	width:300px; height:250px;
+	position:absolute; top:0.25cm; left:1111px;
+  }
+
+  .classe1{
+    background: rgba(255, 255, 255, 0.703);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    text-align: center;
+    opacity: 0.9;
+    width:900px;
+    text-shadow:20px -2px 20px rgba(0, 0, 0, 0.445);
+    padding: 5px;
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <p id="caixa1"></p>
+</header>
+
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">O homem de Giz
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="pag1.html">Sherlock Holmes</a></li>
+    <li><a href="pag3.html">Os dois morrem no final</a></li>
+  </ul>
+</div>
+
+
+
+
+<div class="container"> 
+  <p class="classe1">O homem de giz</p>      
+  <p class="classe1">Em 2016, Eddie se esforça para superar o passado, 
+    até que um dia ele e os amigos de infância recebem um mesmo aviso: 
+    o desenho de um homem de giz enforcado. Quando um dos amigos aparece morto, 
+    Eddie tem certeza de que precisa descobrir o que de fato aconteceu trinta 
+    anos atrás.</p>         
+  <img src="O-Homem-de-Giz-O-Homem-de-Giz.jpg" class="img-circle" alt="Livro" width="310" height="400" position> 
+  <img src="homenzinho.jpg" class="img-polaroid" >
+  <img src="aberto contracapa homem de giz.JPG" class="img-rounded" width="304" height="400">
+
+    
+</div>
+</body>
+</html>
